@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1940_curso_html5_aula1.do</endpoint>
+        <html><![CDATA[<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8"></meta>
+			<title>titulo</title>
+			<style type="text/css">
+				body{
+				background-color: #d0d0d0;
+				margin: 30px;
+				}
+				div.first{
+				height: 440px; 
+				width: 48%;
+				float: left;
+				background: #fc0;
+				margin: 20px 0px 0px 0px;
+
+				}
+				div.second{
+				height: 440px; 
+				width: 627px;
+				float: left;
+				background-color: #cb3398;
+				margin: 20px 0px 0px 91px;
+
+				}
+				div.sec1{
+				height: 80px;
+				width: 170px;
+				float: left;
+				background-color: #f44336;
+				position: relative;
+				left: 12%;
+
+				}
+				div.sec2{
+				height: 80px;
+				width: 170px;
+				float: left;
+				background-color: #f44336;
+				position: relative;
+				left: 58%;
+
+				}
+				section{
+				background-color: #4CAF50;
+				height: 160px;
+
+				}
+			</style>
+		</head>
+		<body>
+			<section>
+				<header>
+					<h1>Section</h1>
+				</header>
+				<div class="sec1"></div>
+				<div class="sec2"></div>
+			</section>
+			<div class="first">DIV First</div>
+			<div class="second">DIV Second</div>
+		</body>
+	</html>]]></html>
+        <name>aula1</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-19 02:37:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ebb8820c0fbc2a00ddda06ace1050e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aula1</sys_name>
+        <sys_package display_value="Curso HTML5 PUCRS" source="x_1940_curso_html5">842e25c00fbc2a00ddda06ace1050e2e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Curso HTML5 PUCRS">842e25c00fbc2a00ddda06ace1050e2e</sys_scope>
+        <sys_update_name>sys_ui_page_ebb8820c0fbc2a00ddda06ace1050e44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-19 02:37:58</sys_updated_on>
+    </sys_ui_page>
+</record_update>
